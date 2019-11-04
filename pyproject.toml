@@ -1,0 +1,15 @@
+[build-system]
+requires = ["mesonpep517", "ninja"]
+build-backend = "mesonpep517.buildapi"
+
+# https://thiblahute.gitlab.io/mesonpep517/
+[tool.mesonpep517.entry-points]
+console_scripts = [
+    'greet = greetpkg.__main__:main',
+]
+
+[tool.mesonpep517.metadata]
+author = "Frederik Rietdijk"
+author-email = "fridh@fridh.nl"
+summary = "greeter"
+home-page = "https://foo.bar"
