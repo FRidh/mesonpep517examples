@@ -11,11 +11,11 @@ The example shows a "classic" build using [`setuptools`](https://github.com/pypa
 
 The `setuptools` version can be build using
 
-    pip wheel --no-use-pep517
+    python setup.py bdist_wheel
 
 and the `meson` version using
 
-    pip wheel
+    pip wheel .
 
 Additionally, a Nix expression is included that allows one to build both using
 

@@ -3,7 +3,7 @@ from setuptools import setup, Extension, find_packages
 module1 = Extension('greetpkg/greet', sources = ['greetpkg/greet.c'])
 
 setup(
-    name = 'PackageName',
+    name = 'greetpkg',
     version = '1.0',
     description = 'This is a demo package',
     ext_modules = [ module1 ],
